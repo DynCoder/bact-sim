@@ -1,0 +1,6 @@
+Makefile
+Makefile.Debug
+Makefile.Release
+simulation
+.qmake.stash
+simulation_plugin_import.cpp
