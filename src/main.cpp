@@ -158,13 +158,19 @@ class grid {
 int main() {
   ///////////////////////////////////////////////////
   // Constants //
-  const int grid_width = 100;
-  const int grid_height = 100;
-  const int bact_size = 5;
+  const int grid_width = 100;  // Default = 100
+  const int grid_height = 100; // Default = 100
+  const int bact_size = 7;     // Default = 5
   ///////////////
-  const sf::Color toxic_color(255, 255, 0);
-  const sf::Color immune_color(255, 0, 255);
+  
+  const sf::Color toxic_color(20, 20, 110);
+  const sf::Color immune_color(0, 155, 0);
   const sf::Color normal_color(0, 255, 255);
+  
+  // const sf::Color toxic_color(255, 255, 0);
+  // const sf::Color immune_color(0, 255, 255);
+  // const sf::Color normal_color(255, 0, 255);
+  
   ///////////////
   const std::string filename = "output.txt";
   ///////////////////////////////////////////////////
